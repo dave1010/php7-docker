@@ -26,3 +26,12 @@ Run your PHPUnit
 Run a PHP file
 
     docker run -it --rm -v "$(pwd)":/home/test -w /home/test php:nightly example1.php
+
+## Future
+
+From a fresh Ubuntu box you can already do this to run PHP 5.6:
+
+    sudo apt-get install docker
+    docker run -it --rm -v "$(pwd)":/home/test -w /home/test php:5.6-cli php ./vendor/bin/phpunit
+
+The aim is to get this container to the same point
