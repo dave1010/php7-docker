@@ -4,7 +4,7 @@
 
 ## Aims
 
-* Allow people to run unit tests with PHP with a 1 line setup & without muich to download (if they have Docker installed)
+* Allow people to run unit tests with PHP with a 1 line setup & without much to download (if they have Docker installed)
 * Get people trying out PHP 7's new features
 
 ## Building
@@ -15,7 +15,7 @@ Something like this:
     docker ps -a
     docker commit <hash> php:nightly
     
-I'll package it on the Docke hub some time.
+I'll package it on the Docker hub some time.
 
 ## Usage
 
