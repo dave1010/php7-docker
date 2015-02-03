@@ -28,4 +28,6 @@ RUN cd /opt/php-src && make --quiet
 RUN cp /opt/php-src/sapi/cli/php /usr/local/bin/php
 
 #ENTRYPOINT ["/usr/local/bin/php"]
-ENTRYPOINT ["/bin/bash"]
+ENTRYPOINT ["/bin/bash", "-c"]
+#CMD ["php", "-a"]
+
