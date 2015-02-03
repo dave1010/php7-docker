@@ -18,7 +18,7 @@ RUN cd /opt && git clone https://github.com/php/php-src.git --depth=1
 
 RUN cd /opt/php-src && ./buildconf --force
 
-RUN cd /opt/php-src ./configure --quiet \
+RUN cd /opt/php-src && ./configure --quiet \
     --prefix=/opt/php-nightly
 
 RUN cd /opt/php-src && ./configure --quiet
