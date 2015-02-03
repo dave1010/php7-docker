@@ -21,8 +21,6 @@ RUN cd /opt/php-src && ./buildconf --force
 RUN cd /opt/php-src && ./configure --quiet \
     --prefix=/opt/php-nightly
 
-RUN cd /opt/php-src && ./configure --quiet
-
 RUN cd /opt/php-src && make --quiet
 
 #RUN cd /opt/php-src && make install
