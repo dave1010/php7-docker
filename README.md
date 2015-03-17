@@ -1,4 +1,4 @@
-# PHP 7 in Docker - Strict type hints edition
+# PHP 7 in Docker - Scalar type hints edition
 
 ## Docker container with PHP 7 (nightly)
 
